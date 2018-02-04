@@ -1,0 +1,5 @@
+install custom in folder c:\Mongodb
+create folder log
+create folder data and inside it folder db
+in cmd: 
+C:\Mongodb\bin>mongod --directoryperdb --dbpath c:\mongodb\data\db --logpath c:\mongodb\log\mongo.log --logappend --rest --install
